@@ -1,0 +1,42 @@
+# Environment & secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+friday.db
+
+# Logs
+*.log
+hud_server.log
+
+# Node
+node_modules/
+.next/
+out/
+
+# Generated files & vaults
+app/vault/
+
+# Test artifacts
+verification/*.png
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
